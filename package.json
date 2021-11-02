@@ -6,7 +6,9 @@
     "start": "ts-node shitpostify.ts",
     "jest": ""
   },
+  "module": "node",
   "dependencies": {
+    "@discordjs/builders": "^0.8.2",
     "@discordjs/rest": "^0.1.0-canary.0",
     "@types/jest": "^27.0.2",
     "discord-api-types": "^0.24.0",
